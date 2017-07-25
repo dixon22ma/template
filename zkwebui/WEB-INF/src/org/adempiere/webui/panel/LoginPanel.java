@@ -124,7 +124,7 @@ public class LoginPanel extends Window implements EventListener
     {
     	Div div = new Div();
     	div.setSclass(ITheme.LOGIN_BOX_HEADER_CLASS);
-    	Label label = new Label("My Customization works!");
+    	Label label = new Label("Login");
     	label.setSclass(ITheme.LOGIN_BOX_HEADER_TXT_CLASS);
     	div.appendChild(label);
     	this.appendChild(div);
